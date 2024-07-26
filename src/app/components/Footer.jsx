@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container p-12 flex justify-between">
         <span><Image
           src="/images/logo.png"
-          alt="logo"
+          alt="haru sakai logo"
           width={30}
           height={30}
         ></Image></span>

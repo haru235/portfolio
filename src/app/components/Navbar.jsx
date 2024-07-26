@@ -33,7 +33,7 @@ const Navbar = () => {
         >
           <Image
             src="/images/logo.png"
-            alt="haru sakai"
+            alt="haru sakai logo"
             width={60}
             height={60}
           ></Image>

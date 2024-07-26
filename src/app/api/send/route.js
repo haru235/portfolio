@@ -2,27 +2,26 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL;
 
-export async function POST(req, res) {
-  const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+export async function POST(req) {
+  if (!process.env.RESEND_API_KEY) {
+    return NextResponse.json({ error: "Resend API key not configured" }, { status: 500 });
+  }
+
   try {
+    const { email, subject, message } = await req.json();
     const data = await resend.emails.send({
-      from: fromEmail,
-      to: [fromEmail, email],
+      from: process.env.FROM_EMAIL,
+      to: [process.env.MY_EMAIL],
       subject: subject,
-      react: (
-        <>
-          <h1>{subject}</h1>
-          <p>Thank you for contacting us!</p>
-          <p>New message submitted:</p>
-          <p>{message}</p>
-        </>
-      ),
+      html: `
+        <p>Message from: ${email}</p>
+        <p>${message}</p>
+      `
     });
+
     return NextResponse.json(data);
   } catch (error) {
-    return NextResponse.json({ error });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }

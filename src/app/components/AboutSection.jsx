@@ -27,7 +27,7 @@ const TAB_DATA = [
             B.S. in Computer Science, minor in Mathematics
           </li>
           <li>GPA: 4.0 (Summa Cum Laude)</li>
-          <li>President&apos;s Honor Roll (7 of 7 semesters)</li>
+          <li>Presidents Honor Roll (7 of 7 semesters)</li>
           <li>Treasurer of Asian Student Association</li>
           <li>Member of Association for Computing Machinery</li>
         </ul>

@@ -15,8 +15,8 @@ const achievementsList = [
     value: "22",
   },
   {
-    metric: "cm",
-    value: "175",
+    metric: "One Piece Episodes",
+    value: "1071",
   },
   {
     metric: "GPA",

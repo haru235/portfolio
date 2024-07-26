@@ -27,7 +27,7 @@ const TAB_DATA = [
             B.S. in Computer Science, minor in Mathematics
           </li>
           <li>GPA: 4.0 (Summa Cum Laude)</li>
-          <li>President's Honor Roll (7 of 7 semesters)</li>
+          <li>President&apos;s Honor Roll (7 of 7 semesters)</li>
           <li>Treasurer of Asian Student Association</li>
           <li>Member of Association for Computing Machinery</li>
         </ul>
@@ -112,7 +112,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a full stack developer passionate about crafting interactive mobile apps and engineering AI. With skills in Flutter, Dart, React, JavaScript, and Java, I blend strong academic foundations with hands-on experience. I love learning and collaborating to build innovative, user-friendly solutions. My goal is to push the boundaries of software development and make a real impact.
+            I am a full stack developer passionate about crafting interactive mobile apps and engineering AI. With skills in Flutter, Dart, React, JavaScript, and Java, I blend strong academic foundations with hands-on experience. I love learning and collaborating to build innovative, user-friendly solutions. My goal is to push the boundaries of software development and make a real impact.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

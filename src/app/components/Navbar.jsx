@@ -32,10 +32,10 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <Image
-            src="/images/logo.png"
+              src="/images/logo.png"
             alt="haru sakai logo"
-            width={60}
-            height={60}
+              width={60}
+              height={60}
           ></Image>
         </Link>
         <div className="mobile-menu block md:hidden">

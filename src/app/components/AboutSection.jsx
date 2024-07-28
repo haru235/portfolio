@@ -87,7 +87,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          IBM Full Stack Software Developer (5 of 14 courses)</li>
+          IBM Full Stack Software Developer (7 of 14 courses)</li>
         <li>
           IBM Full Stack Software Developer (6 or 12 courses)</li>
       </ul>

@@ -10,12 +10,12 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Programming Languages: C++, Java, Dart, HTML, CSS, Python, SQL, JavaScript</li>
-        <li>Frameworks: Flutter, Firebase, React</li>
-        <li>Tools: Visual Studio, XCode, Eclipse, GitHub, Microsoft 365, Blender, Unreal Engine</li>
+        <li>Frameworks: Flutter, Firebase, React, Next.js</li>
+        <li>Tools: Visual Studio, XCode, Eclipse, GitHub, Microsoft 365, Blender, Unreal Engine, Vercel, OpenAI</li>
         <li>Languages: Japanese (native), English (fluent)</li>
       </ul>
     ),
-  },
+  };
   {
     title: "Education",
     id: "education",

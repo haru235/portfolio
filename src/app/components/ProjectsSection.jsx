@@ -41,6 +41,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "Pantry AI",
+    description: "Pantry management app with recipe and shopping list generation",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/pantry-manager",
+    previewUrl: "https://pantry-manager-eta.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {

@@ -15,7 +15,7 @@ const TAB_DATA = [
         <li>Languages: Japanese (native), English (fluent)</li>
       </ul>
     ),
-  };
+  },
   {
     title: "Education",
     id: "education",

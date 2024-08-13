@@ -42,13 +42,22 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pantry AI",
     description: "Pantry management app with recipe and shopping list generation",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/haru235/pantry-manager",
     previewUrl: "https://pantry-manager-eta.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "ConvoCraft",
+    description: "A context-aware chatbot powered by OpenAI, with multi-language support and ability to add context through text or url input.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/ai-chatbot",
+    previewUrl: "https://ai-chatbot-alpha-five.vercel.app",
   },
 ];
 

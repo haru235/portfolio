@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "https://github.com/haru235/ai-chatbot",
     previewUrl: "https://ai-chatbot-alpha-five.vercel.app",
   },
+  {
+    id: 7,
+    title: "Flashcard Saas",
+    description: "An AI-powered study tool that generates flashcards based on any text input, whether it's general subject matter or specific study material.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/flashcard-sass",
+    previewUrl: "https://flashcard-saas-psi.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {

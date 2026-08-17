@@ -41,6 +41,33 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 5,
+    title: "Pantry AI",
+    description: "Pantry management app with recipe and shopping list generation",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/pantry-manager",
+    previewUrl: "https://pantry-manager-eta.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "ConvoCraft",
+    description: "A context-aware chatbot powered by OpenAI, with multi-language support and ability to add context through text or url input.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/ai-chatbot",
+    previewUrl: "https://ai-chatbot-alpha-five.vercel.app",
+  },
+  {
+    id: 7,
+    title: "Flashcard Saas",
+    description: "An AI-powered study tool that generates flashcards based on any text input, whether it's general subject matter or specific study material.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haru235/flashcard-sass",
+    previewUrl: "https://flashcard-saas-psi.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {

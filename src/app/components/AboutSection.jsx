@@ -10,8 +10,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Programming Languages: C++, Java, Dart, HTML, CSS, Python, SQL, JavaScript</li>
-        <li>Frameworks: Flutter, Firebase, React</li>
-        <li>Tools: Visual Studio, XCode, Eclipse, GitHub, Microsoft 365, Blender, Unreal Engine</li>
+        <li>Frameworks: Flutter, Firebase, React, Next.js</li>
+        <li>Tools: Visual Studio, XCode, Eclipse, GitHub, Microsoft 365, Blender, Unreal Engine, Vercel, OpenAI</li>
         <li>Languages: Japanese (native), English (fluent)</li>
       </ul>
     ),
@@ -87,7 +87,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          IBM Full Stack Software Developer (5 of 14 courses)</li>
+          IBM Full Stack Software Developer (7 of 14 courses)</li>
         <li>
           IBM Full Stack Software Developer (6 or 12 courses)</li>
       </ul>

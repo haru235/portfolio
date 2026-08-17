@@ -20,7 +20,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
+      <div className="pl-2">
         <p>University of Texas at Tyler | Fall 2023</p>
         <ul className="list-disc pl-6">
           <li>
@@ -37,14 +37,14 @@ const TAB_DATA = [
             Valedictorian
           </li>
         </ul>
-      </ul>
+      </div>
     ),
   },
   {
     title: "Experiences",
     id: "experiences",
     content: (
-      <ul className="list-disc pl-2">
+      <div className="pl-2">
         <p>Mobile App Dev | June 2022 - August 2023</p>
         <ul className="list-disc pl-6">
           <li>
@@ -78,7 +78,7 @@ const TAB_DATA = [
             track progress and adjust strategies
           </li>
         </ul>
-      </ul>
+      </div>
     ),
   },
   {

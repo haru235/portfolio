@@ -42,13 +42,6 @@ const AchievementsSection = () => {
                   animateToNumber={parseInt(achievement.value)}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
-                  transitions={(index) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tension: 140 * (index + 1),
-                    };
-                  }}
                 />
                 {achievement.postfix}
               </h2>

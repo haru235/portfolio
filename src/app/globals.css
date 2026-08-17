@@ -24,9 +24,6 @@
   --color-secondary-800: var(--color-pink-800);
   --color-secondary-900: var(--color-pink-900);
   --color-secondary-950: var(--color-pink-950);
-
-  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
-  --background-image-gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
 }
 
 :root {
